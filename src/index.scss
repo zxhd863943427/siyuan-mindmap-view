@@ -1,26 +1,179 @@
 #helloPanel {
-    border: 1px rgb(189, 119, 119) dashed;
+  border: 1px rgb(43, 31, 31) dashed;
 }
 
 .plugin-sample {
-    &__custom-tab {
-        background-color: var(--b3-theme-background);
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  &__custom-tab {
+    background-color: var(--b3-theme-background);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__custom-dock {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  &__custom-dock {
+    color: rgb(61, 140, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    &__time {
-        background: var(--b3-card-info-background);
-        border-radius: 4px;
-        padding: 2px 8px;
-    }
+  }
+
+  &__time {
+    background: var(--b3-card-info-background);
+    border-radius: 4px;
+    padding: 2px 8px;
+  }
+}
+
+// #muru p{
+//     font-size: 18px;
+//     // color: #fff;
+//     // margin: 0;
+//     // padding: 0;
+//     // line-height: 1.5;
+// }
+// #总框{
+//   height: 100%;
+// }
+
+
+
+#custom-dock {
+
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  position: absolute;
+  // overflow: hidden;
+  // position: static;
+
+  top: 0px;
+  left: 0px;
+
+}
+
+#muru {
+
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  // position: static;
+  position: absolute;
+  // overflow: hidden;
+  // display: flex;
+  top: 0px;
+  left: 0px;
+
+}
+
+
+#导图框 {
+
+  width: 8000px;
+  height: 8000px;
+  position: absolute;
+  // border: 2px solid #ff00b7;
+  margin-top: 50px;
+}
+
+#mindmap {
+  // width: 8000px;
+  // height: 8000px;
+  // // overflow: scroll;
+  position: absolute;
+  border: 2px solid #522e48;
+
+}
+
+
+.子节点元素 {
+
+  padding-left: 30px;
+  // border-left: #ff00b7 2px solid;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+  border-left: 2px solid transparent;
+
+}
+
+
+
+.节点元素 {
+  display: flex
+}
+
+
+.文本元素 {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.文本显示元素 {
+  border: 2px solid #7e6075;
+  max-width: 300px;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+  font-size: 18px;
+  // border: 2px solid #b4b2b3;
+}
+
+.文本显示元素.l {
+  // border: 2px solid #522e48;
+
+  border: 0px;
+  max-width: 300px;
+
+}
+
+
+
+.有子节点::after{
+
+  display: inline-block; 
+  width:5px;
+  height: 5px;
+  content: "";
+  background-color: #ff0000;
+}
+
+
+
+
+.导图中焦点元素 {
+  color: aqua;
+}
+
+
+
+#连接点画布 {
+
+  width: 8000px;
+  height: 8000px;
+
+}
+
+
+
+
+
+#按钮框 {
+
+  position: absolute;
+  left: 5px;
+  top:5px;
+  // bottom: 20px
+
+}
+
+
+#按钮框 * {
+  display: inline-block;
+  margin: 10px;
 }
