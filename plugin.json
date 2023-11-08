@@ -1,8 +1,8 @@
 {
-  "name": "plugin-sample-vite-svelte",
-  "author": "frostime",
-  "url": "https://github.com/siyuan-note/plugin-sample-vite-svelte",
-  "version": "0.2.6",
+  "name": "mindmap-view",
+  "author": "yiru zhang",
+  "url":"https://github.com/ruyiaisi/siyuan-mindmap-view",
+  "version": "1.2",
   "minAppVersion": "2.10.12",
   "backends": [
     "windows",
@@ -14,23 +14,15 @@
     "desktop-window"
   ],
   "displayName": {
-    "en_US": "Plugin sample with vite and svelte",
-    "zh_CN": "插件样例 vite + svelte 版"
+    "en_US": "Plugin sample mindmap view",
+    "zh_CN": "思维导图视图"
   },
   "description": {
-    "en_US": "SiYuan plugin sample with vite and svelte",
-    "zh_CN": "使用 vite 和 svelte 开发的思源插件样例"
+    "en_US": "SiYuan plugin mindmap view",
+    "zh_CN": "思维导图视图"
   },
   "readme": {
     "en_US": "README.md",
     "zh_CN": "README_zh_CN.md"
   },
-  "funding": {
-    "custom": [
-      "https://afdian.net/a/frostime"
-    ]
-  },
-  "keywords": [
-    "plugin", "sample", "插件样例"
-  ]
 }
